@@ -1,0 +1,91 @@
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'poppins', sans-serif;
+ }
+
+ .header {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   width: 1100px;
+   margin: auto;
+   height: 150px;
+ }
+
+ .header .logo img {
+   margin-top: 21px;
+   cursor: pointer;
+ }
+
+ .header .menu {
+   display: flex;
+   flex-direction: column;
+   margin: 20px 0px;
+   gap: 10px;
+ }
+
+ .header .menu .top-menu ul,
+ .header .menu .bottom-menu ul {
+   display: flex;
+ }
+
+ .header .menu .top-menu ul {
+   flex-direction: row-reverse;
+ }
+
+ .header .menu .top-menu ul li,
+ .header .menu .bottom-menu ul li {
+   list-style: none;
+ }
+
+ .header .menu .top-menu ul li a {
+   text-decoration: none;
+   color: #999999;
+   font-size: 14px;
+   padding: 10px 15px;
+
+ }
+
+ .header .menu .top-menu ul span {
+   color: #999999;
+   padding: 5px 0px;
+ }
+
+ .header .menu .bottom-menu {
+   color: #999999;
+ }
+
+ .header .menu .bottom-menu ul li a {
+   text-decoration: none;
+   color: #0088CC;
+   font-size: 13px;
+   font-weight: 600;
+   padding: 10px 15px;
+
+ }
+
+ .header .menu .bottom-menu ul li a:hover {
+   background-color: #0088CC;
+   padding: 10px 15px;
+   color: #fff;
+   transition: all 0.5s ease;
+
+ }
+
+ .header .menu .bottom-menu ul li .icon {
+   border-radius: 50%;
+   padding: 10px 15px;
+   transition: all 0.5s ease;
+   margin: 0px 5px;
+   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+ }
+
+
+
+ /*=========================header area end=======================*/
+ /*=========================Footer area start=======================*/
+
+ 
+ /*=========================Footer area end=======================*/
