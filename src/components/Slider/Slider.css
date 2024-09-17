@@ -1,0 +1,56 @@
+.mySwiper {
+    height: 500px;
+    overflow: hidden;
+    margin: 30px 0;
+
+}
+
+.single-slider-one,
+.single-slider-two,
+.single-slider-three {
+
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+
+}
+
+.single-slider-one {
+    background-image: url('https://www.portotheme.com/wordpress/porto/classic-original/wp-content/uploads/sites/2/2022/07/wpb-co-intro-2.jpg');
+
+
+}
+
+.single-slider-two {
+    background-image: url('https://www.portotheme.com/wordpress/porto/classic-original/wp-content/uploads/sites/2/2022/07/wpb-co-intro-1.jpg');
+
+}
+
+.single-slider-three {
+    background-image: url('https://www.portotheme.com/wordpress/porto/classic-original/wp-content/uploads/sites/2/2022/07/wpb-co-intro-3.jpg');
+
+}
+
+.content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+     width: 500px;
+}
+.content h1{
+    margin: 10px 0px;
+   
+}
+.swiper-button-prev::after,
+.swiper-button-next::after { 
+    font-size: 14px !important; 
+    background-color: #1E2124;
+    opacity: .5;
+    padding: 10px; 
+   
+}
