@@ -1,0 +1,51 @@
+.technology-area {
+    background-color: #0088CC;
+    height: 150px;
+    margin-top: -30px;
+    position: relative;
+}
+
+.technology {
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.technology h1 {
+    font-size: 1.4em;
+    line-height: 26px;
+    font-weight: 600;
+    letter-spacing: -.5px;
+    color: #fff;
+}
+
+.technology p {
+    color: #B3DCF0;
+}
+
+.technology .techno-right-side button {
+    padding: 15px 20px;
+    color: #fff;
+    background-color: #212529;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.technology .techno-right-side span {
+
+    padding: 0 12px 0 12px;
+    color: #fff;
+
+}
+
+.technology .techno-right-side a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+
+}
