@@ -1,3 +1,5 @@
+ 
+import Accordn from "../Accordion/Accordion";
 import "./Feature.css";
 import React from "react";
 
@@ -92,12 +94,8 @@ const Feature = () => {
             </div>
           </div>
           <div className="accordion">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-              placeat deserunt veritatis, a rerum omnis reprehenderit quod in
-              debitis minus perferendis velit qui, vero temporibus nulla ipsa?
-              Labore, veniam nostrum?
-            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <Accordn />
           </div>
         </div>
       </div>
