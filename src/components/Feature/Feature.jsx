@@ -1,4 +1,3 @@
- 
 import Accordn from "../Accordion/Accordion";
 import "./Feature.css";
 import React from "react";
