@@ -1,4 +1,4 @@
-import './Technology.css';
+import "./Technology.css";
 
 import React from "react";
 
